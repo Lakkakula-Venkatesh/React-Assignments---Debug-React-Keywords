@@ -5,10 +5,10 @@ const App = () => {
   const [count, setCount] = React.useState(0);
 
   return (
-    <div class="ball">
+    <div className="ball">
       <h1
         className="count"
-        onClick={() => {
+        onDoubleClick={() => {
           alert("cant edit it");
         }}
       >
